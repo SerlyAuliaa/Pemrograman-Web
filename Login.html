@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Masuk - TAHULEK</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header Navbar -->
+  <header>
+    <div class="container">
+      <nav>
+        <a href="index.html" class="logo-container">
+          <div class="logo-icon">
+            <!-- <i class="fa-solid fa-pepper-hot"></i> -->
+             <img src="image/tahulek.png" alt="" width="50px">
+          </div>
+          <span class="brand-name">Tahu<span>lek</span></span>
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="register.html" class="btn btn-primary">Daftar Akun</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Form Login Card -->
+  <main class="auth-wrapper">
+    <div class="auth-card">
+      <div class="auth-header">
+        <h2>Masuk Ke Tahulek</h2>
+        <p>Silakan masuk menggunakan akun Anda</p>
+      </div>
+
+      <form action="halaman2.html" method="GET">
+        <div class="input-group">
+          <label for="username">Username / Email</label>
+          <div class="input-wrapper">
+            <i class="fa-regular fa-user input-icon"></i>
+            <input type="text" id="username" name="username" class="input" placeholder="Masukkan username atau email" required>
+          </div>
+        </div>
+
+        <div class="input-group">
+          <label for="login-password">Password</label>
+          <div class="input-wrapper">
+            <i class="fa-solid fa-lock input-icon"></i>
+            <input type="checkbox" id="toggle-pwd-login" class="show-pwd-checkbox">
+            <input type="password" id="login-password" name="password" class="input" placeholder="Masukkan password" required>
+            <label for="toggle-pwd-login" class="show-pwd-label">
+              <i class="fa-regular fa-eye-slash pwd-slash"></i>
+              <i class="fa-regular fa-eye pwd-text"></i>
+            </label>
+          </div>
+        </div>
+
+        <div class="form-options">
+          <label class="remember-me">
+            <input type="checkbox" name="remember"> Ingat saya
+          </label>
+          <div class="forgot-pass">
+            <a href="#">Lupa Password?</a>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%; padding: 12px;">
+          MASUK <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+        <div class="divider">
+          <span>atau</span>
+        </div>
+
+        <div class="auth-footer">
+          Belum punya akun? <a href="register.html" class="auth-link">Daftar Di Sini</a>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Tahulek. All Rights Reserved. | Serly Aulia 2518015</p>
+  </footer>
+
+</body>
+</html>

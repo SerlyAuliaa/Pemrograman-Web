@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TAHULEK - Emang Boleh Seenak Ini?</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <nav>
+        <a href="index.html" class="logo-container">
+          <div class="logo-icon">
+             <img src="image/tahulek.png" alt="" width="50px">
+          </div>
+          <span class="brand-name">Tahu<span>lek</span></span>
+        </a>
+        
+        <input type="checkbox" id="menu-toggle" style="display: none;">
+        <label for="menu-toggle" class="menu-btn">
+        <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Beranda</a></li>
+          <li><a href="#kategori">Kategori</a></li>
+          <li><a href="#menu">Pesan Online</a></li>
+          <li><a href="login.html" class="btn btn-outline">Masuk</a></li>
+          <li><a href="register.html" class="btn btn-primary">Daftar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="jumbotron">
+      <div class="jumbotron-text">
+        <h1>TAHULEK</h1>
+        <h2>Emang boleh seenak ini?</h2>
+        <p>Nikmati kerenyahan tahu walik gurih khas resep istimewa dengan cocolan sambal ulek pedas nagih yang melimpah!</p>
+        <a href="#menu" class="btn btn-light">Pesan Sekarang <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="jumbotron-img">
+        <img src="image/tahu.jpg">
+      </div>
+    </section>
+
+    <section id="kategori" class="cards-categories">
+      <div class="section-title">
+        <h2>Menu Favorit Tahulek</h2>
+        <p>Pilih varian rasa sesuai dengan selera pedasmu</p>
+      </div>
+
+      <div class="card-categories" id="menu">
+        <div class="card">
+          <div class="card-image">
+            <img src="image/original.jpg" alt="Tahulek Original">
+          </div>
+          <div class="card-content">
+            <h5>Tahulek Original</h5>
+            <p class="description">Tahu walik renyah di luar, lembut di dalam lengkap dengan sambal ulek kecap pedas gurih.</p>
+            <div class="card-footer">
+              <p class="price">Rp 5.000</p>
+              <a href="Login.html" class="btn_belanja"><i class="fa-solid fa-cart-shopping"></i> Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <img src="image/pedas.jpg">
+          </div>
+          <div class="card-content">
+            <h5>Tahulek Pedas</h5>
+            <p class="description">Sensasi cabai rawit merah ulek segar melimpah bagi kamu pencinta tantangan pedas ekstrem.</p>
+            <div class="card-footer">
+              <p class="price">Rp 5.000</p>
+              <a href="Login.html" class="btn_belanja"><i class="fa-solid fa-cart-shopping"></i> Beli</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image">
+            <img src="image/tahu.jpg" alt="Tahulek Mix">
+          </div>
+          <div class="card-content">
+            <h5>Tahulek Mix</h5>
+            <p class="description">Kombinasi Tahulek original dan Tahulek pedas agar bisa mencicipi keduanya langsung.</p>
+            <div class="card-footer">
+              <p class="price">Rp 5.000</p>
+              <a href="Login.html" class="btn_belanja"><i class="fa-solid fa-cart-shopping"></i> Beli</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Tahulek. All Rights Reserved. | Serly Aulia 2518015</p>
+  </footer>
+
+</body>
+</html>
